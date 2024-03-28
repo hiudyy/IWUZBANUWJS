@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-server": "node app.js"
+  },
+  "keywords": [],
+  "author": "Ryuk_me",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.3",
+    "sanzy-spotifydl": "*",
+    "express": "^4.17.1",
+    "hercai": "*",
+    "fs": "*",
+    "file-type": "^16.5.3",
+    "@tobyg74/tiktok-api-dl": "*",
+    "spottydl": "*",
+    "form-data": "*",
+    "get-twitter-media": "*",
+    "@bochilteam/scraper": "*",
+    "@xct007/frieren-scraper": "*",
+    "api-dylux": "*",
+    "node-fetch": "^2.6.6"
+  }
+}
