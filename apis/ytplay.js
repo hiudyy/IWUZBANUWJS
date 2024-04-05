@@ -41,7 +41,6 @@ const ytplay = async (input) => {
         titulo: videoDetails.title,
         canal: videoDetails.author.name,
         segundos: videoDetails.lengthSeconds,
-        descricao: videoDetails.description,
         thumb: videoDetails.thumbnails.slice(-1)[0].url,
         download: {
           audio: audioURL,
